@@ -1,0 +1,82 @@
+/*Main*/
+:root{
+    
+    --preta: #141414;
+    --header: white;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: var(--preta);
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    
+}
+
+
+header .container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header .logo{
+    color: var(--header);
+    font-family: 'Arial Black', Times;
+    font-size: 40px;
+    margin-left: 5px;
+    display: block;
+}
+
+header nav a{
+    text-decoration: none;
+    color: #aaa;
+    margin-right: 10px;
+    font-size: large;
+}   
+
+header nav a:hover{
+    color: #fff;
+}
+
+main {
+    font-size: 16px;
+    background: url('file:///C:/DIO/interface_rpg/img/corpo.jpg');
+    height: 1080px;
+    
+
+}
+
+.descricao{
+    color: #fff;
+    text-align: left;
+    margin-bottom: 50px;
+    font-size: 18px;
+}
+
+.lista-ord{
+    text-align: left;
+    font-weight: bold;
+    font-size: 22px;
+}
+
+.titulo{
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.li{
+    margin-bottom: 10px;
+
+}
+
+.texto{
+    font-size: 18px;
+}
